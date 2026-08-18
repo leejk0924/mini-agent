@@ -1,0 +1,17 @@
+{
+    "type": "function",
+    "function": {
+        "name": "calculate",
+        "description": "산술 수식을 계산한다. 예: '3*6'",
+        "parameters": {
+            "type": "object",
+            "properties": {
+                "expression": {
+                    "type": "string",
+                    "description": "계산할 산술 수식"
+                }
+            },
+            "required": ["expression"]
+        }
+    }
+}
